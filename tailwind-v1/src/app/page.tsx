@@ -4,6 +4,7 @@ import EqualWidthMasonry from "./components/EqualWidthMasonry";
 import MasonryGrid from "./components/Masonry";
 import MixedMasonry from "./components/MixedMasonry";
 import VariableWidthMasonry from "./components/VariableWidthMasonry";
+import StoryBookHeroSection from "./storybook/StoryBookHeroSection";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       {/* <EqualWidthMasonry /> */}
       {/* <VariableWidthMasonry /> */}
       {/* <MixedMasonry /> */}
-      <MasonryLayout />
+      {/* <MasonryLayout /> */}
+      <StoryBookHeroSection />
     </main>
   );
 }
